@@ -1,0 +1,110 @@
+/* base.css - foundational styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background: #f0f2f7;
+  color: #1f2d3a;
+  padding: 1rem;
+}
+
+header {
+  background: #0f4c81;
+  color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+nav a {
+  color: #ffd966;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.75rem;
+  background: #e2e8f0;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th,
+table td {
+  border: 1px solid #ccd7e0;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+article {
+  margin-bottom: 1rem;
+}
+
+aside {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f7f9fc;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+button, input, textarea {
+  font-family: inherit;
+  padding: 0.5rem;
+  border: 1px solid #b0c4de;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+form div {
+  margin-bottom: 0.75rem;
+}

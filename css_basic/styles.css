@@ -1,0 +1,32 @@
+/* styles.css - layout adjustments for flexbox and responsiveness */
+
+/* Flexbox layout per task 1 */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  gap: 1rem;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Optional: small responsive tweak if base.css doesn't already adapt */
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+}
